@@ -26,6 +26,9 @@ app.get('/ab*cd',(req,res) =>{
 // app.get('/a/b*c+d-e',(req,res) => {
 //     res.send("Microsoft");
 // });
+app.get('/profile',(req,res) => {
+    res.status(200).json({'user':'ravikaran','balance':100,'id':'1822co1048'})
+})
 app.get('/user/:id',(req,res) =>{
     res.send("Facebook");
     res.send(req.params);

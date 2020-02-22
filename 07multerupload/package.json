@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "hitesh",
+  "author": "ravikaran",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
